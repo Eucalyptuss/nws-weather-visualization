@@ -29,6 +29,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+weather_log/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -81,6 +82,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
+*.csv
+
 
 # IPython
 profile_default/
