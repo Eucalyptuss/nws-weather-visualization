@@ -79,6 +79,17 @@ city_coordinates = {
     "wyoming": {"cheyenne": (41.1400, -104.8202)}
 }
 
+# # JSON 파일을 읽어서 딕셔너리로 변환하는 함수
+# def load_dict_from_json(filename):
+#     with open(filename, 'r') as f:
+#         dictionary = json.load(f)
+#     print(f"Dictionary loaded from {filename}")
+#     return dictionary
+#
+# # 파일에서 딕셔너리 불러오기
+# city_coordinates = load_dict_from_json('city_coordinates.json')
+#
+# # print(city_coordinates)
 
 # 화씨를 섭씨로 변환하는 함수
 def fahrenheit_to_celsius(f):
