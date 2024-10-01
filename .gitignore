@@ -85,6 +85,9 @@ target/
 *.ipynb
 *.csv
 
+# Parquet stuff:
+*.parquet
+
 
 # IPython
 profile_default/
